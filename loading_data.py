@@ -189,12 +189,12 @@ def loading_data(path):
                         fates3[n]=col
     fates3[1]='ext'
     fates3[0]='undeter'
-    properties.pop('axis_n')
+    # properties.pop('axis_n')
     properties.pop('Errors')
     properties.pop('vals_clone_15')
     # properties.pop('surface')
     properties.pop('vals_fate')
-    properties.pop('barycenter')
+    # properties.pop('barycenter')
     # properties.pop('Names')
     properties.pop('neighbourhood')
     # properties.pop('Sim no vol')
@@ -202,7 +202,7 @@ def loading_data(path):
     properties.pop('axis_clone')
     # properties.pop('fate')
     properties.pop('Cum_diff')
-    properties.pop('vals_n')
+    # properties.pop('vals_n')
     # properties.pop('h_mins_information')
     properties.pop('vals_mother')
     properties.pop('axis_fate')
